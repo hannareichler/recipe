@@ -1,0 +1,88 @@
+/*Define your font styles here*/
+@font-face {
+  font-family: Nostalgic;
+  src: url(Nostalgic.otf);
+}
+
+@font-face {
+  font-family: Apollo;
+  src: url(APOLLO.otf);
+}
+
+@font-face {
+  font-family: ApolloI;
+  src: url(APOLLOItalic.otf);
+}
+
+@font-face {
+  font-family: cream;
+  src: url(cream-DEMO.otf);
+}
+
+
+h1{
+  color: #a88979;
+  text-align: center;
+  font-family: Nostalgic;
+  font-size: 100px;
+}
+
+
+
+h2{
+  color: #a88979;
+  text-align: left;
+  font-family: Apollo;
+  font-size: 40px;
+  margin-top: 80px;
+  margin-right: 280px;
+  margin-left: 280px;
+  letter-spacing: 2px;
+}
+
+h3{
+  color: #a88979;
+  text-align: left;
+  font-family: ApolloI;
+  font-size: 20px;
+  margin-right: 300px;
+  margin-left: 300px;
+  letter-spacing: 2px;
+}
+
+h4{
+  color: #a88979;
+  text-align: left;
+  font-family: Apollo;
+  font-size: 14px;
+  margin-right: 300px;
+  margin-left: 300px;
+  letter-spacing: 2px;
+  line-height: 180%;
+}
+
+blockquote{
+  color: #a88979;
+  text-align: center;
+  font-family: Nostalgic;
+  font-size: 20px;
+  margin-right: 280px;
+  margin-left: 280px;
+  margin-top: 50px
+}
+
+/*Style your page here*/
+    body{
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #9cccc4;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( to left top, #eddfd8, #decabd);
+    background: -moz-linear-gradient( to left top, #eddfd8, #decabd);
+    background: -ms-linear-gradient( to left top, #eddfd8, #decabd);
+    background: -o-linear-gradient( to left top, #eddfd8, #decabd);
+    background: linear-gradient( to left top, #eddfd8, #decabd);
+    }
